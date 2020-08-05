@@ -1,0 +1,5 @@
+23:56:35.119 [main] INFO  Assessment.SmallCase.Scenerio1 - The price of product before adding to cart?3,920
+23:56:36.648 [main] INFO  Assessment.SmallCase.Scenerio2 - The price of the product in FLipkart is: ?3,920
+23:56:37.045 [main] INFO  Assessment.SmallCase.Scenerio2 - The name of the product selected is: Fujifilm Instax Mini 9 Instant Camera Green
+23:56:37.119 [main] INFO  Assessment.SmallCase.Scenerio2 - The amazon url is: https://www.amazon.in/
+23:56:46.512 [main] INFO  Assessment.SmallCase.Scenerio2 - The price of the amazon product before adding to cart: ? 3,920.00

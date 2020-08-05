@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Assessment.SmallCase.Listeners"/>
+    <listener class-name="Assessment.SmallCase.RetryListenerClass"/>
+  </listeners>
+  <test parallel="none" name="Scenerios2(failed)">
+    <classes>
+      <class name="Assessment.SmallCase.Scenerio2">
+        <methods>
+          <include name="cart_Screen_amazon"/>
+          <include name="product_Comparison"/>
+          <include name="obtained_Product_screen"/>
+          <include name="initialize"/>
+          <include name="amazon_Search"/>
+          <include name="cart_Screen_of_Flipkart"/>
+          <include name="groups_Of_products_Screen_of_Amazon"/>
+        </methods>
+      </class> <!-- Assessment.SmallCase.Scenerio2 -->
+      <class name="Assessment.SmallCase.Scenerio1">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Assessment.SmallCase.Scenerio1 -->
+    </classes>
+  </test> <!-- Scenerios2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

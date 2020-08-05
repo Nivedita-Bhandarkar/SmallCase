@@ -1,0 +1,6 @@
+23:56:09.255 [main] INFO  Resources.DriverInitializationBase - The browser is : chrome
+23:56:13.568 [main] INFO  Assessment.SmallCase.Scenerio1 - Flipkart Url :https://www.flipkart.com/
+23:56:15.911 [main] INFO  Assessment.SmallCase.Scenerio1 - Pop-up for guestmode is closed
+23:56:16.076 [main] INFO  Assessment.SmallCase.Scenerio1 - Product Name : fuji camera
+23:56:20.532 [main] INFO  Assessment.SmallCase.Scenerio1 - The price of product before adding to cart?3,920
+23:56:23.334 [main] INFO  Assessment.SmallCase.Scenerio1 - The price of the product after increasing the quantity: ?7,840
