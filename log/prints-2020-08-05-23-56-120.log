@@ -1,6 +1,0 @@
-23:56:23.336 [main] INFO  Assessment.SmallCase.Scenerio1 - Close the browser
-23:56:25.245 [main] INFO  Assessment.SmallCase.Scenerio2 - The method is calling from Scenerio1
-23:56:25.246 [main] INFO  Resources.DriverInitializationBase - The browser is : chrome
-23:56:28.632 [main] INFO  Assessment.SmallCase.Scenerio1 - Flipkart Url :https://www.flipkart.com/
-23:56:30.849 [main] INFO  Assessment.SmallCase.Scenerio1 - Pop-up for guestmode is closed
-23:56:31.052 [main] INFO  Assessment.SmallCase.Scenerio1 - Product Name : fuji camera
