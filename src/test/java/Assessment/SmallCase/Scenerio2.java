@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Amazon_ObjectRepository.A_CartPage;
@@ -125,13 +126,13 @@ public class Scenerio2 extends DriverInitializationBase {
 	public void product_Comparison() throws ParseException {
 
 		if (cartPriceofFlipKart < cartPriceofAmazon) {
-			getLogs.info(fetchData.getProperty("FlipkartURL") + " Price of the product :"+ flipkartSelectedproductCompletename + " is: " + cartPriceofFlipKart);
+			getLogs.info(fetchData.getProperty("FlipkartURL") + " Price of the product :"+ flipkartSelectedproductCompletename + " is: " + cartPriceofFlipKart+" is cheaper");
 		} else if (cartPriceofFlipKart == cartPriceofAmazon) {
 			getLogs.info("Both sites are having same price");
 		} else {
 
 			getLogs.info(fetchData.getProperty("AmazonURL") + " Price of the product :"
-					+ flipkartSelectedproductCompletename + " is: " + cartPriceofAmazon);
+					+ flipkartSelectedproductCompletename + " is: " + cartPriceofAmazon+" is cheaper");
 		}
 	}
 
@@ -140,4 +141,5 @@ public class Scenerio2 extends DriverInitializationBase {
 		driver.quit();
 
 	}
+	
 }

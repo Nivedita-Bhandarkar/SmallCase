@@ -15,7 +15,7 @@ public class A_SpecifiedProductPage {
 	private By productPricetextAmazon = By.cssSelector("#priceblock_ourprice");
 
 	// This element is used to locate Add to Cart button
-	private By addProducttoCart = By.cssSelector("#add-to-cart-button");
+	private By addProducttoCart = By.cssSelector("#mbc-buybutton-addtocart-1");
 
 	
 	// This element is used to locate Go to Cart button

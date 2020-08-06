@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Flipkart_ObjectRepository.FK_CartPage;
@@ -74,7 +75,7 @@ public class Scenerio1 extends DriverInitializationBase {
 		//5. Add to cart in guest mode.
 		selectedProduct.addTocart().click();
 	}
-
+	
 	@Test(dependsOnMethods = { "add_Item_to_Cart_fk" }, description = "This block is used to execute the cart")
 	public void cart_Screen_of_Flipkart() {
 		//6. Go to Cart Page.

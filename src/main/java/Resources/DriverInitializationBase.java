@@ -30,7 +30,8 @@ Logger getLogs =LogManager.getLogger(DriverInitializationBase.class.getName());
 	public WebDriver initializeRemotedriver() throws IOException {
 
 		// Get the browsername during runtime
-		String browserName = System.getProperty("browser");
+		propertyFile();
+		String browserName = dataFileforAssessment.getProperty("browser");
 		getLogs.info("The browser is : "+browserName);
 		
 		// This block will execute if user invokes chrome browser
