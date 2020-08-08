@@ -12,10 +12,11 @@ public class A_SpecifiedProductPage {
 	}
 
 	// This element is used to locate price text of specific product
-	private By productPricetextAmazon = By.cssSelector("#priceblock_ourprice");
+	private By productPricetextAmazon = By.cssSelector("#priceblock_dealprice");
 
 	// This element is used to locate Add to Cart button
-	private By addProducttoCart = By.cssSelector("#mbc-buybutton-addtocart-1");
+	private By addProducttoCart = By.cssSelector("#mbc-buybutton-addtocart-1-announce");
+	
 
 	
 	// This element is used to locate Go to Cart button

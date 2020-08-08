@@ -2,68 +2,68 @@
 <testng-results total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-06T11:09:58Z" name="Suite" finished-at="2020-08-06T11:10:48Z" duration-ms="50400">
+  <suite started-at="2020-08-08T08:05:37Z" name="Suite" finished-at="2020-08-08T08:06:59Z" duration-ms="81936">
     <groups>
     </groups>
-    <test started-at="2020-08-06T11:09:58Z" name="Scenerio1" finished-at="2020-08-06T11:10:09Z" duration-ms="11113">
+    <test started-at="2020-08-08T08:05:37Z" name="Scenerio1" finished-at="2020-08-08T08:06:07Z" duration-ms="30340">
       <class name="Assessment.SmallCase.Scenerio1">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:39:58Z" name="initialize" description="This block will execute for initializing the driver and fetching the property file" finished-at="2020-08-06T16:40:03Z" duration-ms="5064" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:35:37Z" name="initialize" description="This block will execute for initializing the driver and fetching the property file" finished-at="2020-08-08T13:35:54Z" duration-ms="17359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="search_Product_from_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:40:03Z" name="search_Product_from_Flipkart" description="This Block will execute for searching the product" finished-at="2020-08-06T16:40:03Z" duration-ms="352" status="PASS">
+        <test-method signature="search_Product_from_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:35:54Z" name="search_Product_from_Flipkart" description="This Block will execute for searching the product" finished-at="2020-08-08T13:35:55Z" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_Product_from_Flipkart -->
-        <test-method signature="groups_Of_products_Screen_flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:40:03Z" name="groups_Of_products_Screen_flipkart" description="This Block with excute for groups of product after search" finished-at="2020-08-06T16:40:04Z" depends-on-methods="Assessment.SmallCase.Scenerio1.search_Product_from_Flipkart" duration-ms="958" status="PASS">
+        <test-method signature="groups_Of_products_Screen_flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:35:55Z" name="groups_Of_products_Screen_flipkart" description="This Block with excute for groups of product after search" finished-at="2020-08-08T13:35:58Z" depends-on-methods="Assessment.SmallCase.Scenerio1.search_Product_from_Flipkart" duration-ms="3149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groups_Of_products_Screen_flipkart -->
-        <test-method signature="add_Item_to_Cart_fk()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:40:04Z" name="add_Item_to_Cart_fk" description="This block is used to execute to add an item to the cart" finished-at="2020-08-06T16:40:06Z" depends-on-methods="Assessment.SmallCase.Scenerio1.groups_Of_products_Screen_flipkart" duration-ms="2179" status="PASS">
+        <test-method signature="add_Item_to_Cart_fk()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:35:58Z" name="add_Item_to_Cart_fk" description="This block is used to execute to add an item to the cart" finished-at="2020-08-08T13:36:04Z" depends-on-methods="Assessment.SmallCase.Scenerio1.groups_Of_products_Screen_flipkart" duration-ms="5572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_Item_to_Cart_fk -->
-        <test-method signature="cart_Screen_of_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:40:06Z" name="cart_Screen_of_Flipkart" description="This block is used to execute the cart" finished-at="2020-08-06T16:40:08Z" depends-on-methods="Assessment.SmallCase.Scenerio1.add_Item_to_Cart_fk" duration-ms="1846" status="PASS">
+        <test-method signature="cart_Screen_of_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:36:04Z" name="cart_Screen_of_Flipkart" description="This block is used to execute the cart" finished-at="2020-08-08T13:36:07Z" depends-on-methods="Assessment.SmallCase.Scenerio1.add_Item_to_Cart_fk" duration-ms="2822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart_Screen_of_Flipkart -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-06T16:40:08Z" name="teardown" finished-at="2020-08-06T16:40:09Z" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Assessment.SmallCase.Scenerio1@2f7a7219]" started-at="2020-08-08T13:36:07Z" name="teardown" finished-at="2020-08-08T13:36:07Z" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Assessment.SmallCase.Scenerio1 -->
     </test> <!-- Scenerio1 -->
-    <test started-at="2020-08-06T11:10:09Z" name="Scenerios2" finished-at="2020-08-06T11:10:48Z" duration-ms="39018">
+    <test started-at="2020-08-08T08:06:08Z" name="Scenerios2" finished-at="2020-08-08T08:06:59Z" duration-ms="51112">
       <class name="Assessment.SmallCase.Scenerio2">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:09Z" name="initialize" description="This block executes from required methods present in Scenerio1" finished-at="2020-08-06T16:40:29Z" duration-ms="20294" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:08Z" name="initialize" description="This block executes from required methods present in Scenerio1" finished-at="2020-08-08T13:36:31Z" duration-ms="23361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="cart_Screen_of_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:29Z" name="cart_Screen_of_Flipkart" finished-at="2020-08-06T16:40:30Z" duration-ms="1177" status="PASS">
+        <test-method signature="cart_Screen_of_Flipkart()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:31Z" name="cart_Screen_of_Flipkart" finished-at="2020-08-08T13:36:32Z" duration-ms="1267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart_Screen_of_Flipkart -->
-        <test-method signature="amazon_Search()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:30Z" name="amazon_Search" finished-at="2020-08-06T16:40:39Z" duration-ms="8106" status="PASS">
+        <test-method signature="amazon_Search()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:32Z" name="amazon_Search" finished-at="2020-08-08T13:36:45Z" duration-ms="12969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon_Search -->
-        <test-method signature="groups_Of_products_Screen_of_Amazon()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:39Z" name="groups_Of_products_Screen_of_Amazon" finished-at="2020-08-06T16:40:39Z" duration-ms="502" status="PASS">
+        <test-method signature="groups_Of_products_Screen_of_Amazon()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:45Z" name="groups_Of_products_Screen_of_Amazon" finished-at="2020-08-08T13:36:46Z" duration-ms="903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- groups_Of_products_Screen_of_Amazon -->
-        <test-method signature="obtained_Product_screen()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:39Z" name="obtained_Product_screen" finished-at="2020-08-06T16:40:46Z" duration-ms="7305" status="PASS">
+        <test-method signature="obtained_Product_screen()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:46Z" name="obtained_Product_screen" finished-at="2020-08-08T13:36:58Z" duration-ms="11414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- obtained_Product_screen -->
-        <test-method signature="cart_Screen_amazon()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:46Z" name="cart_Screen_amazon" finished-at="2020-08-06T16:40:46Z" duration-ms="46" status="PASS">
+        <test-method signature="cart_Screen_amazon()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:58Z" name="cart_Screen_amazon" finished-at="2020-08-08T13:36:58Z" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart_Screen_amazon -->
-        <test-method signature="product_Comparison()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:46Z" name="product_Comparison" finished-at="2020-08-06T16:40:46Z" duration-ms="0" status="PASS">
+        <test-method signature="product_Comparison()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:58Z" name="product_Comparison" finished-at="2020-08-08T13:36:58Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- product_Comparison -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-06T16:40:46Z" name="teardown" finished-at="2020-08-06T16:40:48Z" duration-ms="1586" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Assessment.SmallCase.Scenerio2@4a8ab068]" started-at="2020-08-08T13:36:58Z" name="teardown" finished-at="2020-08-08T13:36:59Z" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

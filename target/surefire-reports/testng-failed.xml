@@ -5,39 +5,19 @@
     <listener class-name="Assessment.SmallCase.Listeners"/>
     <listener class-name="Assessment.SmallCase.RetryListenerClass"/>
   </listeners>
-  <test parallel="none" name="Scenerio1(failed)">
-    <classes>
-      <class name="Assessment.SmallCase.Scenerio2">
-        <methods>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Assessment.SmallCase.Scenerio2 -->
-      <class name="Assessment.SmallCase.Scenerio1">
-        <methods>
-          <include name="groups_Of_products_Screen_flipkart"/>
-          <include name="add_Item_to_Cart_fk"/>
-          <include name="search_Product_from_Flipkart"/>
-          <include name="cart_Screen_of_Flipkart"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Assessment.SmallCase.Scenerio1 -->
-    </classes>
-  </test> <!-- Scenerio1(failed) -->
   <test parallel="none" name="Scenerios2(failed)">
     <classes>
       <class name="Assessment.SmallCase.Scenerio2">
         <methods>
           <include name="cart_Screen_amazon"/>
-          <include name="product_Comparison"/>
+          <include name="teardown"/>
           <include name="obtained_Product_screen"/>
           <include name="initialize"/>
-          <include name="amazon_Search"/>
-          <include name="cart_Screen_of_Flipkart"/>
-          <include name="groups_Of_products_Screen_of_Amazon"/>
         </methods>
       </class> <!-- Assessment.SmallCase.Scenerio2 -->
       <class name="Assessment.SmallCase.Scenerio1">
         <methods>
+          <include name="teardown"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Assessment.SmallCase.Scenerio1 -->
